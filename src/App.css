@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-item.completed {
+  opacity: 0.6;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-item .task-details {
+  flex-grow: 1;
+}
+
+.task-item h3 {
+  margin: 0;
+  color: #343a40;
+}
+
+.task-item p {
+  margin: 5px 0;
+  color: #6c757d;
+}
+
+.add-task-form {
+  margin-bottom: 20px;
+}
+
+.add-task-form input,
+.add-task-form button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-task-form button {
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.add-task-form button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; 
+
+}
+
+.container {
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
